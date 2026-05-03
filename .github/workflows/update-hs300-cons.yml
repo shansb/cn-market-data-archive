@@ -1,0 +1,44 @@
+name: Update CSI Constituents
+
+on:
+  schedule:
+    # 09:00 Asia/Shanghai, Monday-Friday.
+    - cron: "0 1 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update constituents
+        run: python scripts/update_hs300_cons.py
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 00300-沪深300/cons.csv 00300-沪深300/archive 000688-科创50/cons.csv 000688-科创50/archive
+          git commit -m "Update CSI constituents"
+          git push
