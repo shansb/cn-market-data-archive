@@ -14,6 +14,4 @@ Thumbs.db
 .idea/
 
 # Temp / downloads
-*.xls
-*.xlsx
 *.tmp
