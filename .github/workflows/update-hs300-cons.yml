@@ -39,6 +39,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add 00300-沪深300/cons.csv 00300-沪深300/archive 000688-科创50/cons.csv 000688-科创50/archive
+          git add 00300-沪深300/cons.csv 00300-沪深300/archive 000688-科创50/cons.csv 000688-科创50/archive 000905-中证500/cons.csv 000905-中证500/archive
           git commit -m "Update CSI constituents"
           git push

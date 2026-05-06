@@ -34,6 +34,15 @@ INDEXES = [
             "file/autofile/cons/000688cons.xls"
         ),
     },
+    {
+        "name": "中证500",
+        "download_prefix": "000905cons",
+        "target_dir": ROOT / "000905-中证500",
+        "source_url": (
+            "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/"
+            "file/autofile/cons/000905cons.xls"
+        ),
+    },
 ]
 
 

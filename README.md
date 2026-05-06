@@ -12,6 +12,7 @@
 | --- | --- | --- | --- |
 | 沪深300 | `00300-沪深300/cons.csv` | `00300-沪深300/archive/` | `000300cons.xls` |
 | 科创50 | `000688-科创50/cons.csv` | `000688-科创50/archive/` | `000688cons.xls` |
+| 中证500 | `000905-中证500/cons.csv` | `000905-中证500/archive/` | `000905cons.xls` |
 
 `cons.csv` 是单列表：
 
@@ -26,6 +27,7 @@ import pandas as pd
 
 hs300 = pd.read_csv("00300-沪深300/cons.csv", dtype={"code": str})
 star50 = pd.read_csv("000688-科创50/cons.csv", dtype={"code": str})
+csi500 = pd.read_csv("000905-中证500/cons.csv", dtype={"code": str})
 ```
 
 当远端成分券代码与本地 `cons.csv` 完全一致时，不会改动文件；当不一致时，会把下载到的原始文件按运行日期保存为 `archive/yyyyMMdd.xlsx`，并覆盖更新对应目录下的 `cons.csv`。
@@ -84,7 +86,7 @@ total_usd = assets[
 执行逻辑：
 
 1. 读取 `法定节假日.csv`，如果当天日期 `yyyyMMdd` 在文件中，则跳过。
-2. 下载沪深300和科创50的成分券文件。
+2. 下载沪深300、科创50和中证500的成分券文件。
 3. 解析 `成份券代码Constituent Code` 列。
 4. 与对应目录下的 `cons.csv` 的 `code` 列逐项完全比较。
 5. 有变化时归档原始下载文件，并覆盖更新 `cons.csv`。
