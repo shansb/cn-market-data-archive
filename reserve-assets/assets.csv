@@ -9,6 +9,8 @@ month,item_no,item_cn,item_en,unit,value,source_url
 2026-04,1,外汇储备,Foreign currency reserves,100million SDR,24857.91,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,1,外汇储备,Foreign currency reserves,100million USD,34422.38,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,1,外汇储备,Foreign currency reserves,100million SDR,25148.72,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,1,外汇储备,Foreign currency reserves,100million USD,34162.62,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,1,外汇储备,Foreign currency reserves,100million SDR,25191.76,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-01,2,基金组织储备头寸,IMF reserve position,100million USD,111.98,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-01,2,基金组织储备头寸,IMF reserve position,100million SDR,81.04,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-02,2,基金组织储备头寸,IMF reserve position,100million USD,111.40,https://www.safe.gov.cn/safe/2026/0206/27116.html
@@ -19,6 +21,8 @@ month,item_no,item_cn,item_en,unit,value,source_url
 2026-04,2,基金组织储备头寸,IMF reserve position,100million SDR,79.72,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,2,基金组织储备头寸,IMF reserve position,100million USD,111.85,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,2,基金组织储备头寸,IMF reserve position,100million SDR,81.72,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,2,基金组织储备头寸,IMF reserve position,100million USD,109.81,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,2,基金组织储备头寸,IMF reserve position,100million SDR,80.97,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-01,3,特别提款权,SDRs,100million USD,562.34,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-01,3,特别提款权,SDRs,100million SDR,406.94,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-02,3,特别提款权,SDRs,100million USD,560.93,https://www.safe.gov.cn/safe/2026/0206/27116.html
@@ -29,6 +33,8 @@ month,item_no,item_cn,item_en,unit,value,source_url
 2026-04,3,特别提款权,SDRs,100million SDR,408.40,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,3,特别提款权,SDRs,100million USD,560.34,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,3,特别提款权,SDRs,100million SDR,409.38,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,3,特别提款权,SDRs,100million USD,551.42,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,3,特别提款权,SDRs,100million SDR,406.62,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-01,4,黄金,Gold,100million USD,3695.82,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-01,4,黄金,Gold,100million SDR,2674.51,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-02,4,黄金,Gold,100million USD,3875.88,https://www.safe.gov.cn/safe/2026/0206/27116.html
@@ -39,6 +45,8 @@ month,item_no,item_cn,item_en,unit,value,source_url
 2026-04,4,黄金,Gold,100million SDR,2508.51,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,4,黄金,Gold,100million USD,3407.52,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,4,黄金,Gold,100million SDR,2489.51,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,4,黄金,Gold,100million USD,3037.24,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,4,黄金,Gold,100million SDR,2239.68,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-01,5,其他储备资产,Other reserve assets,100million USD,1.89,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-01,5,其他储备资产,Other reserve assets,100million SDR,1.37,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-02,5,其他储备资产,Other reserve assets,100million USD,0.65,https://www.safe.gov.cn/safe/2026/0206/27116.html
@@ -49,6 +57,8 @@ month,item_no,item_cn,item_en,unit,value,source_url
 2026-04,5,其他储备资产,Other reserve assets,100million SDR,0.20,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,5,其他储备资产,Other reserve assets,100million USD,3.77,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,5,其他储备资产,Other reserve assets,100million SDR,2.75,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,5,其他储备资产,Other reserve assets,100million USD,2.09,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,5,其他储备资产,Other reserve assets,100million SDR,1.54,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-01,,合计,Total,100million USD,38362.81,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-01,,合计,Total,100million SDR,27761.53,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-02,,合计,Total,100million USD,38826.93,https://www.safe.gov.cn/safe/2026/0206/27116.html
@@ -59,8 +69,11 @@ month,item_no,item_cn,item_en,unit,value,source_url
 2026-04,,合计,Total,100million SDR,27854.74,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,,合计,Total,100million USD,38505.86,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,,合计,Total,100million SDR,28132.08,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,,合计,Total,100million USD,37863.18,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,,合计,Total,100million SDR,27920.57,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-01,4,黄金储备数量,Gold reserves volume,10000 fine troy ounces,7419,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-02,4,黄金储备数量,Gold reserves volume,10000 fine troy ounces,7422,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-03,4,黄金储备数量,Gold reserves volume,10000 fine troy ounces,7438,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-04,4,黄金储备数量,Gold reserves volume,10000 fine troy ounces,7464,https://www.safe.gov.cn/safe/2026/0206/27116.html
 2026-05,4,黄金储备数量,Gold reserves volume,10000 fine troy ounces,7496,https://www.safe.gov.cn/safe/2026/0206/27116.html
+2026-06,4,黄金储备数量,Gold reserves volume,10000 fine troy ounces,7544,https://www.safe.gov.cn/safe/2026/0206/27116.html
