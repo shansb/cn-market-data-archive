@@ -43,6 +43,15 @@ INDEXES = [
             "file/autofile/cons/000905cons.xls"
         ),
     },
+    {
+        "name": "中证A500",
+        "download_prefix": "000510cons",
+        "target_dir": ROOT / "000510-中证A500",
+        "source_url": (
+            "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/"
+            "file/autofile/cons/000510cons.xls"
+        ),
+    },
 ]
 
 
@@ -129,7 +138,7 @@ def update_index(config: dict[str, object], today: str) -> None:
     )
     try:
         source_codes = read_source_codes(downloaded)
-        current_codes = read_current_codes(cons_csv)
+        current_codes = read_current_codes(cons_csv) if cons_csv.exists() else []
         if source_codes == current_codes:
             print(f"{today}: {config['name']} constituent codes unchanged.")
             return
